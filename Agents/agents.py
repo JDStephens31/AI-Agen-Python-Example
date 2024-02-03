@@ -4,7 +4,7 @@ from crewai import Agent
 
 import Tools.tools # import <Directory>.<File_Name>
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "<OPEN AI API KEY>"
 api = os.environ.get("OPENAI_API_KEY")
 
 # Example Agent

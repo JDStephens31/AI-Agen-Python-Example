@@ -5,9 +5,6 @@ from langchain.agents import load_tools
 import Agents.agents  # import <Directory>.<File_Name>
 import Tasks.tasks  # import <Directory>.<File_Name>
 
-# to get your api key for free, visit and signup: https://serper.dev/
-os.environ["SERPER_API_KEY"] = "f9d634cd11c08dc8f6796ca7510bf92e68279b65"
-
 # Loading Human Tools
 human_tools = load_tools(["human"])
 
